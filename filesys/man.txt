@@ -1,0 +1,58 @@
+man   	NAME      an interface to the on-line reference manuals
+	FORMAT    man    
+			
+mkfs  	NAME      build a filesystem
+	FORMAT    mkfs
+			
+q       NAME      quit 
+	FORMAT    q
+			
+mkdir	NAME      make directories
+	FORMAT    mkdir directory_name
+			
+rmdir   NAME      remove directories
+	FORMAT    rmdir directory_name
+			
+cd      NAME      change directory
+	FORMAT    cd directory_name
+			
+ls  	NAME      list directory contents
+	FORMAT    ls
+			
+touch   NAME      create an empty file
+	FORMAT    touch file_name
+			
+rm	NAME      remove a file
+	FORMAT    rm file_name
+			
+vi   	NAME      edit a file
+	FORMAT    vi file_name
+			
+cp	NAME      copy a file
+	FORMAT    cp source_file_name dest_file_name
+		  cp source_file_name dest_directory_name
+					  
+mv	NAME      move a file
+	FORMAT    mv source_file_name dest_file_name
+		  mv source_file_name dest_directory_name
+					  
+stat    NAME      display file or file system status
+	FORMAT    stat file_name
+		  stat directory_name
+					  
+chmod   NAME      change file mode bits
+	FORMAT    chmod +r/-r file_name/directory_name
+		  chmod +w/-w file_name/directory_name
+		  chmod +x/-x file_name/directory_name		
+					  
+zip     NAME      package and compress (archive) files
+	FORMAT    zip zip_file_name source_file_name
+			
+unzip	NAME      extract compressed files in a ZIP archive
+	FORMAT    unzip file_name
+
+df      NAME	  report file system disk space usage
+	FORMAT    df
+
+ps  	NAME      process management
+	FORMAT    ps
